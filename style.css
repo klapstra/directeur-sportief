@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+#team-selection {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* Stijl voor knoppen */
+button {
+    display: block; /* Zorg ervoor dat elke knop op een nieuwe regel staat */
+    margin: 10px 0; /* Voeg wat ruimte toe tussen de knoppen */
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* Stijl voor het blok "Jouw Team" */
+#team-selection {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#team-selection h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#team-selection p {
+    margin: 5px 0;
+}
+
+#selected-riders, #selected-team {
+    margin-top: 15px;
+}
+
+#selected-riders h3, #selected-team h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#selected-riders p, #selected-team p {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #e8f4f8;
+    border-radius: 5px;
+}
+/* Stijl voor de resetknop */
+#reset-team {
+    background-color: #e74c3c;
+    margin-top: 10px;
+}
+
+#reset-team:hover {
+    background-color: #c0392b;
+}
+/* Stijl voor geselecteerde renners */
+.selected-rider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e8f4f8;
+    border-radius: 5px;
+}
+
+.selected-rider p {
+    margin: 0;
+}
+
+.selected-rider button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-rider button:hover {
+    background-color: #c0392b;
+}
+/* Stijl voor geselecteerde ploeg */
+.selected-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e8f4f8;
+    border-radius: 5px;
+}
+
+.selected-team p {
+    margin: 0;
+}
+
+.selected-team button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-team button:hover {
+    background-color: #c0392b;
+}
+/* Stijl voor het totaal aantal punten */
+#team-selection p {
+    margin: 5px 0;
+}
+
+#total-points {
+    font-weight: bold;
+    color: #27ae60;
+}
+/* Stijl voor de rennerslijst */
+#rider-list {
+    margin-top: 20px;
+}
+
+#rider-list h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#rider-list button {
+    display: block; /* Zorg ervoor dat elke knop op een nieuwe regel staat */
+    width: 100%; /* Volledige breedte van de kolom */
+    margin: 5px 0; /* Voeg wat ruimte tussen de knoppen toe */
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left; /* Links uitlijnen van de tekst */
+}
+
+#rider-list button:hover {
+    background-color: #2980b9;
+}
+/* Stijl voor de zoekbalk */
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-bar:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+#search-container {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
